@@ -1,0 +1,80 @@
+@import '../base/reset.css';
+@import '../components/buttons.css';
+@import '../tokens/dualcore-global-colors.css';
+@import '../tokens/dualcore-semantics.css';
+
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--dc-bg_dark);
+}
+
+.dc-project-card {
+  width: 360px;
+  background-color: var(--dc-card-bg);
+  opacity: 0.6;
+  corner-shape: squircle;
+  border-radius: var(--dc-br-xl);
+  padding: 24px;
+  border: 1px solid var(--dc-core-neutral-600);
+}
+
+.dc-project-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dc-space-md);
+}
+.dc-project-title {
+  font-size: var(--dc-fs-lg);
+  margin-bottom: var(--dc-space-sm);
+}
+.dc-project-title h3 {
+  line-height: var(--dc-fs-xl);
+  color: var(--dc-pri-clr);
+}
+
+.dc-project-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dc-space-md);
+}
+.dc-project-item {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: var(--dc-space-sm);
+}
+.dc-item-description {
+  font-size: var(--dc-fs-sm);
+  color: var(--dc-core-neutral-200);
+}
+.dc-item-description span {
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  color: var(--dc-pri-clr);
+}
+.dc-item-description p {
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.dc-project-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--dc-space-sm);
+}
+
+.dc-project-tags {
+  display: flex;
+  gap: var(--dc-space-sm);
+}
+
+.dc-tag {
+  color: var(--dc-core-neutral-200);
+  padding: 8px 16px;
+  border: 1px solid var(--dc-card-border);
+  border-radius: var(--dc-br-full);
+}
