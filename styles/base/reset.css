@@ -17,6 +17,13 @@
     font-style: normal;
 }
 
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--dc-bg--dc-bg-srf);
+}
 html {
   font-size: 62.5%; /* 1rem = 10px */
   font-family: 'Roobert', sans-serif;

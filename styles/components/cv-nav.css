@@ -1,0 +1,52 @@
+@import '../base/reset.css';
+@import '../components/buttons.css';
+@import '../tokens/dualcore-global-colors.css';
+@import '../tokens/dualcore-semantics.css';
+
+.cv-main-nav {
+  padding: 2.4rem 3.2rem;
+  background-color: var(--dc-bg-srf);
+  border-bottom: 2px solid var(--dc-card-border);
+}
+.cv-profile {
+  height: 5.6rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-nav-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.8rem;
+}
+
+.main-nav-name p {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--dc-deep-logic-50);
+  line-height: 2.4rem;
+}
+.main-nav-name .cv-h1 {
+  font-size: 2.4rem;
+  font-weight: bolder;
+  color: var(--dc-pri-clr);
+  line-height: 2.0rem;
+}
+.main-nav-logo {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+.main-nav-links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1.6rem;
+  margin-top: 1.2rem;
+}

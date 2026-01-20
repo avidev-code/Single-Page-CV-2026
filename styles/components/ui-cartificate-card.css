@@ -3,13 +3,6 @@
 @import '../tokens/dualcore-global-colors.css';
 @import '../tokens/dualcore-semantics.css';
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: var(--dc-bg_dark);
-}
 .cards-container {
   display: flex;
   flex-direction: column;
