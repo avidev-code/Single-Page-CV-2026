@@ -30,6 +30,7 @@
   --dc-bg_dark: var(--dc-deep-logic-950);
   
   /*Card-colors*/
-  --dc-card-bg: var(--dc-deep-logic-400);
+  --dc-card-bg: #373E4A;
+  --dc-card-heading: #1D2029;
   --dc-card-border: var(--dc-deep-logic-300);
 }
