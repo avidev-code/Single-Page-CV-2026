@@ -16,7 +16,7 @@ body {
   gap: var(--dc-space-lg);
 }
 
-.dev-cert-card {
+.ui-cert-card {
   max-width: 400px;
   background-color: var(--dc-card-bg);
   corner-shape: squircle;
@@ -25,7 +25,7 @@ body {
   flex-direction: column;
   }
   
-.dev-heading-content {
+.ui-heading-content {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -35,79 +35,79 @@ body {
   border-top-left-radius: 20px 20px;
   border-top-right-radius: 20px 20px;
 }
-.dev-heading-title {
+.ui-heading-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.dev-heading-1 {
+.ui-heading-1 {
   display: flex;
   align-items: center;
   gap: var(--dc-space-sm);
 }
-.dev-badge-container {
+.ui-badge-container {
   width: 22px;
   height: 20px;
   padding: 4px;
   border-radius: 0.4rem;
   background-color: var(--dc-core-neutral-700)
 }
-.dev-badge-container img {
+.ui-badge-container img {
   width: 100%;
   height: 100%;
 }
-.dev-heading-1 span {
+.ui-heading-1 span {
   width: 32px;
   height: 32px;
 }
-.dev-heading-1 p {
+.ui-heading-1 p {
   font-size: var(--dc-fs-md);
   font-weight: 600;
-  color: var(--dc-pri-clr);
+  color: var(--dc-sec-clr);
 }
-.dev-heading-date {
+.ui-heading-date {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: var(--dc-space-sm);
 }
-.dev-heading-date img {
+.ui-heading-date img {
   height: ;
 }
 
-.dev-heading-date p {
+.ui-heading-date p {
   font-weight: bold;
   letter-spacing: 0.1rem;
   font-size: var(--dc-fs-sm);
-  color: var(--dc-pri-clr);
+  color: var(--dc-sec-clr);
 }
-.dev-heading-date img {
+.ui-heading-date img {
   width: 16px;
   height: 16px;
 }
 
 /*Course description*/
-.dev-cert-body {
+.ui-cert-body {
   height: 180px;
   padding: var(--dc-space-md);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.dev-cert-body p {
+.ui-cert-body p {
   font-size: var(--dc-fs-sm);
   letter-spacing: 0.2rem;
   line-height: 2.4rem;
   color: var(--dc-core-neutral-200);
   letter-spacing: 0.1px;
 }
-.dev-cert-body button {
+.ui-cert-body button {
   width: 100%;
   padding: 0.8rem 0;
-  border: 1px solid var(--dc-pri-clr);
+  border: 1px solid var(--dc-sec-clr);
   background-color: var(--dc-card-bg);
   border-radius: var(--dc-br-sm);
-  color: var(--dc-pri-clr);
+  color: var(--dc-sec-clr);
   font-size: var(--dc-fs-md);
   font-weight: bold;
   display: flex;
@@ -116,7 +116,7 @@ body {
   gap: var(--dc-space-sm);
   cursor: pointer;
 }
-.dev-cert-body img {
+.ui-cert-body img {
   width: 24px;
   height: 24px;
 }
