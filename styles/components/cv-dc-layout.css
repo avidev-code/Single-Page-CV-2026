@@ -1,0 +1,11 @@
+@import '../base/reset.css';
+@import '../components/buttons.css';
+@import '../tokens/dualcore-global-colors.css';
+@import '../tokens/dualcore-semantics.css';
+
+.cv-container {
+  border: 5px solid #e1bee7;
+  background-color: #fff1ff;
+  display: grid;
+  grid-template-columns: 100px 200px 300px ;
+}
